@@ -10,7 +10,7 @@
 #'
 #' @importFrom stringr str_detect str_c
 #'
-#' @importFrom readr read_fwf
+#' @importFrom readr read_fwf fwf_cols
 #'
 #' @importFrom dplyr inner_join
 #'

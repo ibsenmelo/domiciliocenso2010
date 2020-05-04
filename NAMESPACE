@@ -3,6 +3,7 @@
 export(baixa_domicilio)
 export(bota_ponto)
 importFrom(dplyr,inner_join)
+importFrom(readr,fwf_cols)
 importFrom(readr,read_fwf)
 importFrom(stats,aggregate)
 importFrom(stringr,str_c)
