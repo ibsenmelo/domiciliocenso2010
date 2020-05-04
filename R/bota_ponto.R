@@ -1,6 +1,6 @@
 
 
-#' @title
+#' marcador de decimal
 #'
 #' @description Função criada para auxiliar baixa_domicilio. Serve para inserir ponto que separa inteiro de decimal.
 #'
@@ -9,6 +9,8 @@
 #'
 #' @return valor com ponto
 #' @export
+#'
+#' @importFrom stringr str_c str_sub
 #'
 #' @examples
 #' bota_ponto("123456")

@@ -2,7 +2,7 @@
 % Please edit documentation in R/bota_ponto.R
 \name{bota_ponto}
 \alias{bota_ponto}
-\title{}
+\title{marcador de decimal}
 \usage{
 bota_ponto(x, apos = 3)
 }

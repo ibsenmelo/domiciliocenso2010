@@ -1,0 +1,20 @@
+---
+title: "censo 2010 domicilio"
+author: "Ibsen Melo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{censo 2010 domicilio}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(domiciliocenso2010)
+```

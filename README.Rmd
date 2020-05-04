@@ -19,33 +19,22 @@ Baixa os microdados de domicilio do censo de 2010 e faz os ajustes pelos pesos d
 
 ## Installation
 
-You can install the released version of domiciliocenso2010 from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of domiciliocenso2010 from GITHUB with:
 
 ``` r
-install.packages("domiciliocenso2010")
+library(devtools)
+install_github("ibsenmelo/domiciliocenso2010")
+
 ```
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(domiciliocenso2010)
-## basic example code
+# baixando os dados de Roraima
+rr<-baixa_domicilio("RR", delete.dir = FALSE)
+
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

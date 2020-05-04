@@ -12,3 +12,12 @@ LazyData: true
 RoxygenNote: 7.0.2
 URL: https://github.com/ibsenmelo/domiciliocenso2010
 BugReports: https://github.com/ibsenmelo/domiciliocenso2010/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    stringr,
+    dplyr,
+    readr,
+    survey
