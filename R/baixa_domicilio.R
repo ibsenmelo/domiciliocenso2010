@@ -60,9 +60,13 @@ baixa_domicilio <- function(estado_sigla, delete.dir = TRUE) {
 
 
   teste1$v0010<-bota_ponto(teste1$v0010)
+  teste1$v2012<-bota_ponto(teste1$v2012,4)
+  teste1$v6203<-bota_ponto(teste1$v6203,2)
+  teste1$v6204<-bota_ponto(teste1$v6204,2)
   teste1$v6530<-bota_ponto(teste1$v6530,5)
   teste1$v6531<-bota_ponto(teste1$v6531,6)
   teste1$v6532<-bota_ponto(teste1$v6532,4)
+
 
   domicrj_dat<-as.data.frame(sapply(teste1, as.numeric))
 
